@@ -15,31 +15,34 @@
     
 </head>
 <body bgcolor="#000000">	
-
-	<!-- Trigger/Open The Modal -->
+	
+	<!-- Trigger/Open The Modal 
 	<button id="myBtn">Open Modal</button>
-	<div id="myModal" class="modal">		<!-- MODAL POPUP WINDOW -->
+	<div id="myModal" class="modal">		MODAL POPUP WINDOW 
 
-		<!-- Modal content -->
+		 Modal content 
 		<div class="modal-content">
 			<span class="close">&times;</span>
 			<p>Some text in the Modal..</p>
 		</div>
+	</div> 	-->
 
-	</div> 	
+	<div style="width: 100%; height: 100%; margin: 25%;"> <br></div>
 
-	<div class="imgbox" >
-		<img class="center-fit" src="yellow.jpg">
+	<div class="imgbox">
+		<video autoplay muted loop id="myVideo" style="width: 100%;height: 100%; opacity: 0.5;">
+			<source src="joy.mp4" type="video/mp4">
+		</video>
 		<style>
-	        * {
-	            margin: 0;
-	            padding: 0;
-	        }
 	        .imgbox {
-	        	margin-top: 10%;
-	        	margin-bottom: 10%;
+	        	position: fixed;
+	        	z-index: -1;
+				right: 0;
+				bottom: 0;
 	            display: grid;
 	            height: 100%;
+	            width: 100%;
+
 	        }
 	        .center-fit {
 	            max-width: 100%;
@@ -51,7 +54,7 @@
 
 	<br><br>
 
-	<div class="header">  <!-- QUOTE BAR -->
+	<div class="header" style="opacity: 0.75;">  <!-- QUOTE BAR -->
 		<div>
 			<img src="logo.png" style="float: left;max-width: 150px;border:1px solid #021a40; border-radius: 200px;border-color: white;">
 		</div>
@@ -66,7 +69,7 @@
 	</div>
 
 	<div>				<!-- TOP NAV BAR -->
-		<div id="topnav" >
+		<div id="topnav" style="opacity: 0.75;">
 		  <a class="active" href="#home">About Us</a>
 		  <a href="#news">Get Involved</a>
 		  <a href="#contact">Contact</a>
@@ -78,24 +81,24 @@
 	<br><br>
 	<div>			
 		
-		<div  id="mainbod" style="font-family: 'Merienda', cursive; margin-left: 100px;margin-right: 100px;text-align: left;">	<!-- TOP NGO INTRO -->
+		<div  id="mainbod" style="font-family: 'Merienda', cursive; margin-left: 100px;margin-right: 100px;text-align: left;color: white;">	<!-- TOP NGO INTRO -->
 			<br>
 			<h2>ABOUT US</h2>
 				<hr>
 				<br>
-				<div class="flex-box" style="height: 500px; width: 100%;margin:10px;">
-					<div class="w3-card-2" style="max-width: 700px;max-height: 400px;margin:10px;">
-						<img src="yellow.jpg" style="max-width: 600px;max-height: 400px;">
-					</div>
-					<div class="flextext" style="max-width: 30vw;margin:10px; margin-left: 10vw;margin-top: 10vw;">
-						<p>We are a group of youngsters looking to serve the society in all the ways possible. Trying to be the better version of us everyday!</p>
-						<br>Founding date<br>
-						10-01-19<br>
-					</div>
+			<div class="flex-box" style="height: auto; width: 100%;margin:10px;margin-top:30px; ">
+				<div class="w3-card-2" style="max-width: 700px;max-height: 400px;margin:10px;">
+					<img src="yellow.jpg" style="max-width: 600px;max-height: 400px;">
 				</div>
+				<div class="flextext" style="max-width: 30vw;margin:	30px;">
+					<p>We are a group of youngsters looking to serve the society in all the ways possible. Trying to be the better version of us everyday!</p>
+					<br>Founding date<br>
+					10-01-19<br>
+				</div>
+			</div>
 			<br><br>
-			<div class="flex-box" style="height: 500px; width: 100%;margin:10px;">
-				<div class="flextext" style="max-width: 30vw;margin:10px; margin-left: 10vw;margin-top: 50px;">
+			<div class="flex-box" style="height: auto; width: 100%;margin:10px;margin-top:30px; ">
+				<div class="flextext" style="max-width: 300px;margin:30px;margin-top: 50px;">
 					<h3>Our Main Goals are:</h3><br>
 					<ol>
 						<li> Collect and Distribute excess Food left in Marriages,Functions and in our vicinity.</li>
@@ -103,16 +106,16 @@
 						<li>To conduct Awarenesses programs in school colleges on various issues to empower the students.</li>	
 					</ol>
 				</div>
-				<div class="w3-card-2" style="max-width: 700px;max-height: 400px;margin:10px;">
+				<div class="w3-card-2" style="max-width: 700px;max-height: 400px;margin:30px;">
 					<img src="yellow.jpg" style="max-width: 600px;max-height: 400px;">
 				</div>
 			</div>
 			<br><br>
-			<div class="flex-box" style="height: 500px; width: 100%;margin:10px;">
-				<div class="w3-card-2" style="margin:10px;max-width: 600px;max-height: 400px;">
-					<img src="team.jpg" style="max-width: 600px;max-height: 400px;">
+			<div class="flex-box" style="height: auto; width: 100%;margin:30px;">
+				<div class="w3-card-2" style="margin:10px;max-width: 600px;max-height: 400px; ">
+					<img src="team.jpg" style="max-width: 600px;max-height: 400px;margin-right: 30px;">
 				</div>
-				<div class="flextext" style="max-width: 200px;margin:10px; margin-left: 10px;margin-top: 30px;">
+				<div class="flextext" style="width: 200px;margin:10px;margin: 30px;">
 					<h3>OUR TEAM</h3><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -123,7 +126,7 @@
 		</div>
 
 
-		<div style="width: 100%;float: left;padding: 0px;margin: 10px;margin-left: 10px;margin-right: 10px;">		<!-- fb post row -->
+		<div style="width: 100%;padding: 10px;margin:30px; ">		<!-- fb post row -->
 
 			<h3 style="color:white;">OUR WORK</h3><hr><br>
 
@@ -157,7 +160,7 @@
 				}
 			</style>
 
-			<div class="flex-box" style="justify-content: space-around;">
+			<div class="flex-box" style="justify-content: space-around;color: white;">
 			  <a > 
 			  		<div class="column" style="margin:0;">
 					    <li style="white-space: nowrap;">WEEKLY FOOD DRIVES</li><br>
@@ -340,12 +343,12 @@
 
 	<div id="ifrm" style="margin: 20px; margin-left: 38%;">	<!-- FB IFRAME -->
 		
-		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbtch1998%2Fposts%2F590314961459442%3A0&width=500" width="250" height="620" style="border:none;overflow:hidden" scrolling="no" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbtch1998%2Fposts%2F590314961459442%3A0&width=500" width="250" height="620" style="border:none;overflow:hidden;color:white;background-color:black;" scrolling="no" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>
 	</div>
 
 	<hr>
 
-	<div id=botnav class="flex-box" style="align-content: space-around;">	<!-- BOTNAV BAR -->
+	<div id=botnav class="flex-box" style="align-content: space-around;">	<!-- BOTNAV BAR -->	
 		<div id="map" style="margin: 5%;margin-top: 30px;height: 200px;width: 250px;"> 
 		</div>
 		<div id="botnavbar">
