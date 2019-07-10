@@ -10,7 +10,7 @@
   }
 
   .header {
-    background-color: #080808;
+    background-color: #000000 ;
    /* background-color: #000000;*/
     padding: 30px;
     padding-bottom: 0px;
@@ -28,7 +28,7 @@
     margin-left: : 0px;
     font-family: 'Nova Script', cursive;
     float: right;
-    background-color: #ffff;
+    background-color: #000000;
     overflow: hidden;
   }
 
@@ -36,7 +36,7 @@
   #topnav a {
     float: right;
     display: block;
-    color: #000;
+    color: #ffffff;
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
@@ -45,16 +45,16 @@
 
   /* Change the color of links on hover */
   #topnav a:hover {
-    background-color: #ddd;
+    background-color: #000000;
     border-radius: 30px;
     color: black;
   }
 
   /* Add a color to the active/current link */
   #topnav a.active {
-    background-color: #080808;
+    background-color: #ffffff ;
     border-radius: 30px;
-    color: white;
+    color: black;
   }
 
   /* Page content */
@@ -152,11 +152,15 @@
     flex-flow: row wrap;
     }
 
+.flextext{
+  color: white;
+  text-align: justify;
+}
 
 /*CSS FOR BOTTOM NAVIGATION BAR */
 
   #botnav{
-    background-color: #080808;
+    background-color: #000000 ;
     padding: 60px;
     font-family: 'Nova Script', cursive;
     font-size: 25px;
@@ -190,7 +194,7 @@
 
   /* Add a color to the active/current link */
   #botnavbar a.active {
-    background-color: #080808;
+    background-color: #ffffff ;
     border-radius: 30px;
     color: white;
   }
@@ -209,7 +213,7 @@
                 color:#4d8;
             }
             .credits{
-                background-color:#0d0d0d;
+                background-color:#ffffff ;
                 text-align:center;
                 font-size:1.15em;
                 margin:auto;
