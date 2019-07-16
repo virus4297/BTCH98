@@ -33,6 +33,7 @@
   }
   /* Add a black background color to the top navigation */
   #topnav {
+    border-radius: 10px;
     margin: 60px;
     margin-left: : 0px;
     margin-top: 0px;
@@ -110,8 +111,14 @@
     height: auto; width: 90%;
     margin:10px;
     margin-top:30px;
-    background-color: #ffffff;
-    opacity: 0.7; 
+    border: 1px solid white;
+    border-radius: 3px;
+    /*background-color: #ffffff;*/
+     /*background:linear-gradient(-45deg, rgba(255, 0 , 0,0.5),rgba(255, 127, 0,0.5),rgba(255, 255, 0,0.5),rgba(0, 255, 0,0.5),rgba(0, 0, 255,0.5),rgba(75, 0, 130,0.5),rgba(148, 0, 211,0.5));*/
+    background:linear-gradient(45deg, rgba(244, 208, 63, 1),rgb(255, 255, 0), rgba(0, 230, 64, 1),rgba(0, 177, 106, 1));
+    z-index: auto;
+    
+    opacity: 0.8;
     }
 
 .flextext{
