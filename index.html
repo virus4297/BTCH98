@@ -354,11 +354,133 @@
 		<button class="button" style="margin: 0 auto;"><a  style="text-decoration: none;" href="#Donate">Donate Page	</a></button>
 	</div>
 
-		<div id="ifrm" style="margin: 0 auto;margin-top: 30px;opacity: .8;width: 250px;background-color: white;">	<!-- FB IFRAME -->
+	<div style="width: 100%;margin: auto;margin-top: 60px;height: auto;">			<!-- Counter Boxs -->
+		<div class="row" style="display: flex;width: 100%;margin: auto;">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			
-			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbtch1998%2Fposts%2F590314961459442%3A0&width=500" width="250" height="580" style="border:none;overflow:hidden;color:white;background-color:white;" scrolling="no" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>
+			<style type="text/css">
+				/* Style the counter cards */
+				.card {
+				  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+				  padding: 16px;
+				  text-align: center;
+				  background-color: #444;
+				  color: white;
+				}
+
+
+				/* Float four columns side by side */
+				.column {
+				  float: left;
+				  width: 30%;
+				  height: auto;
+				  margin: auto;
+				}
+
+				.row {margin: 0 -5px;}
+
+				/* Clear floats after the columns */
+				.row:after {
+				  content: "";
+				  display: table;
+				  clear: both;
+				}
+
+				/* Responsive columns */
+				@media screen and (max-width: 600px) {
+				  .column {
+				    width: 100%;
+				    display: block;
+				    margin-bottom: 10px;
+				  }
+				}
+
+				.fa {font-size:75px;}
+			</style>
+
+		  <div class="column">
+		    <div class="card">
+		      <p><i class="fa fa-user"></i></p>
+		      <h3>11+</h3>
+		      <p>Partners</p>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <p><i class="fa fa-check"></i></p>
+		      <h3>55+</h3>
+		      <p>Initiatives</p>
+		    </div>
+		  </div>
+		  
+		  <div class="column">
+		    <div class="card">
+		      <p><i class="fa fa-smile-o"></i></p>
+		      <h3>100+</h3>
+		      <p>Meals Fed</p>
+		    </div>
+		  </div>
 		</div>
+	</div>
+
+	<div id="ifrm" style="margin: 0 auto;margin-top: 30px;opacity: .8;width: 250px;background-color: white;">	<!-- FB IFRAME -->
+		
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbtch1998%2Fposts%2F590314961459442%3A0&width=500" width="250" height="580" style="border:none;overflow:hidden;color:white;background-color:white;" scrolling="no" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>
+	</div>
 	<hr>
+
+	<div style="width:50%;margin: auto;">
+		<style>
+			.container {
+			  border: 2px solid #ccc;
+			  background-color: #eee;
+			  border-radius: 5px;
+			  padding: 16px;
+			  margin: 16px 0
+			}
+
+			.container::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+
+			.container img {
+			  float: left;
+			  margin-right: 20px;
+			  border-radius: 50%;
+			}
+
+			.container span {
+			  font-size: 20px;
+			  margin-right: 15px;
+			}
+
+			@media (max-width: 500px) {
+			  .container {
+			      text-align: center;
+			  }
+			  .container img {
+			      margin: auto;
+			      float: none;
+			      display: block;
+			  }
+			}
+		</style>
+
+		<div class="container">
+		  <img src="child.jpg" alt="Avatar" style="width:90px">
+		  <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+		  <p>BTCH saved us from a famine disaster.</p>
+		</div>
+
+		<div class="container">
+		  <img src="kid.jpg" alt="Avatar" style="width:90px">
+		  <p><span>Rebecca Flex.</span> CEO at Company.</p>
+		  <p>No one is better than BTCH.</p>
+		</div>
+	</div>
 
 	<div id="botnav" style="align-content: space-around;width: 100%; display: flex;width: 100%;">	<!-- BOTNAV BAR -->	
 		<div id="map" style="margin: 5%;margin-top: 30px;height: 300px;width: 375px;"> 
@@ -366,7 +488,8 @@
 		<div id="botnavbar" style="width: auto;height: auto;">
 			<a href="#news" >Get Involved</a>
 			<a href="#contact">Contact</a>
-			<a href="#about" >Donate</a>
+			<a href="#donate" >Donate</a>
+			<a href="#about" >About Us</a>
 			<!-- <a href="#" class="cd-top text--replace js-cd-top" >BACK TO TOP ^</a> -->
 		</div>
 		<div class="cd-top text--replace js-cd-top" style="width: auto;height: auto;position:fixed;right: 0;bottom: 0;">
