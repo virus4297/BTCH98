@@ -28,9 +28,6 @@
 
 /*CSS FOR TOP NAVIGATION BAR */
 
-  a{
-     margin: 10px;
-  }
   /* Add a black background color to the top navigation */
   #topnav {
     border-radius: 10px;
@@ -50,6 +47,7 @@
     color: #ffffff;
     text-align: center;
     padding: 14px 14px;
+    margin: 10px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -77,11 +75,13 @@
 
   .cd-top--is-visible { // back-to-top button visible
     visibility: visible;
+    text-shadow: black;
     opacity: 1;
   }
 
   .cd-top--fade-out { // reduce button opacity if user keeps scrolling
     opacity: .5;
+    text-shadow: black;
   }
 
 
@@ -138,6 +138,7 @@
 
   /* Add a black background color to the bot navigation */
   #botnavbar {
+    margin: 60px;
     border-left: solid 3px white;
     float: right;
     display: flex;
@@ -147,11 +148,15 @@
   /* Style the links inside the navigation bar */
   #botnavbar a {
     color: white;
-    height: 50px;
-    padding: 10px;
-    margin:20px; 
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    margin: 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 17px;
+    max-height:50px; 
+    max-width:0 auto;
   }
 
   /* Change the color of links on hover */
@@ -163,7 +168,8 @@
 
   /* Add a color to the active/current link */
   #botnavbar a.active {
-    background-color: #ffffff ;
+    background-color:  #d4fc08;
+    padding: 15px;
     border-radius: 30px;
     color: white;
   }
