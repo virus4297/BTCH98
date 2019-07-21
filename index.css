@@ -115,7 +115,7 @@
     border-radius: 3px;
     /*background-color: #ffffff;*/
      /*background:linear-gradient(-45deg, rgba(255, 0 , 0,0.5),rgba(255, 127, 0,0.5),rgba(255, 255, 0,0.5),rgba(0, 255, 0,0.5),rgba(0, 0, 255,0.5),rgba(75, 0, 130,0.5),rgba(148, 0, 211,0.5));*/
-    background:linear-gradient(45deg, rgba(244, 208, 63, 1),rgb(255, 255, 0), rgba(0, 230, 64, 1),rgba(0, 177, 106, 1));
+    background:linear-gradient(45deg, rgb(244, 208, 63),rgb(255, 255, 0), rgb(0, 230, 64),rgb(0, 177, 106),rgb(0, 230, 64));
     z-index: auto;
     
     opacity: 0.8;
