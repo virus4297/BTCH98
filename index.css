@@ -128,7 +128,7 @@
 
 /*CSS FOR BOTTOM NAVIGATION BAR */
 
-  #botnav{
+  .botnav{
     background-color: #101010 ;
     padding: 60px;
     font-family: 'Nova Script', cursive;
