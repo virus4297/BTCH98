@@ -1,3 +1,15 @@
+// COMMENT
+
+var $target = document.getElementsByClassName('.wrapper');
+  var color = document.getElementsByClassName(el).attr('data-background-color');
+function hehe(el){
+  $target.css('background-color', color );
+};
+('.section').on('enter', hehe(el));
+
+
+
+
 /*JS FOR STICKY TOP NAVIGATION BAR */
 	// When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};

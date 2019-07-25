@@ -12,8 +12,8 @@ namespace trial
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            string Conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Pawan\Desktop\work\BTCH98\trial\trial\App_Data\Database1.mdf;Integrated Security=True";
+         
+            string Conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\91819\Desktop\Be the chage Hospete\BTCH98\trial\trial\App_Data\Database1.mdf;Integrated Security=True";
             SqlConnection con =new SqlConnection(Conn);
             con.Open();
             SqlCommand query1 = new SqlCommand("Select * from Book");
@@ -24,14 +24,16 @@ namespace trial
             SqlDataReader reader = query1.ExecuteReader();
             while (reader.Read())
             {
-                temp += "<table>";
-                temp += reader["name"].ToString();
-                temp +=  "<br>";
-                temp += reader["contact"].ToString();
-                temp += reader["email"].ToString();
-                temp += reader["book_name"].ToString();
-                temp += reader["description"].ToString();
-                temp += "<br>";
+
+
+                temp += "<table class='Table'>";
+                temp += "<tr class='Row'>";
+                temp += "<td class='Data'>";
+                temp += "Name:<Label class='Name'>" + reader["name"].ToString() + "<Label><br/>";
+                temp += "BookName: <Label class='BookName'>" + reader["book_name"].ToString() + "</Label><br/>";
+                temp += "Description: <Label class='Description'>" + reader["description"].ToString() + "</Label><br/>";
+                temp += " </td>";
+                temp += "</tr>";
                 temp += "</table>";
             }
             Get1.Text = temp;

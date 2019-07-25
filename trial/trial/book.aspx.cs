@@ -12,7 +12,7 @@ namespace trial
     public partial class login : System.Web.UI.Page
     {
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Pawan\Desktop\work\BTCH98\trial\trial\App_Data\Database1.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\91819\Desktop\Be the chage Hospete\BTCH98\trial\trial\App_Data\Database1.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
