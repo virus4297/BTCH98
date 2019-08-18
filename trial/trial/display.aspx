@@ -29,8 +29,7 @@
 
 	<div style="width: 100%; height: 100%; margin: 15%;margin-top: 50px;"> <br/></div>
 
-
-    <div class="flex-box" style="font-family: 'Merienda', cursive;justify-content: space-around;color: black;background:linear-gradient(150deg,rgba(0, 230, 64, 1),rgb(30,144,255),rgb(72,61,139));">
+    <div class="flex-box" style="width:100%;font-family: 'Merienda', cursive;justify-content: space-around;color: black;background:linear-gradient(150deg,rgba(0, 230, 64, 1),rgb(30,144,255),rgb(72,61,139));">
     <style>
         .Table {
             margin:15px;
@@ -54,7 +53,15 @@
         }
     </style>
       
-                <asp:Label ID="Get1" runat="server" Text="Label"></asp:Label>
+            <table> 
+            <tr><td><asp:Label ID="Get1" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Label ID="Label4" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Label ID="Label5" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></td></tr>
+            <tr><td><asp:Image ID="Image1" runat="server" /></td></tr>
+             </table>
 
 	</div>
 

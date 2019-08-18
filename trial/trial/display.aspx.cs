@@ -12,8 +12,7 @@ namespace trial
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-         
-            string Conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\91819\Desktop\Be the chage Hospete\BTCH98\trial\trial\App_Data\Database1.mdf;Integrated Security=True";
+            string Conn = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\91819\Desktop\Be the chage Hospete\BTCH98\trial\trial\App_Data\Database1.mdf; Integrated Security = True";
             SqlConnection con =new SqlConnection(Conn);
             con.Open();
             SqlCommand query1 = new SqlCommand("Select * from Book");
@@ -26,7 +25,7 @@ namespace trial
             {
 
 
-                temp += "<table class='Table'>";
+                temp += "<div><table class='Table'>";
                 temp += "<tr class='Row'>";
                 temp += "<td class='Data'>";
                 temp += "Name:<Label class='Name'>" + reader["name"].ToString() + "<Label><br/>";
@@ -34,7 +33,7 @@ namespace trial
                 temp += "Description: <Label class='Description'>" + reader["description"].ToString() + "</Label><br/>";
                 temp += " </td>";
                 temp += "</tr>";
-                temp += "</table>";
+                temp += "</table></div>";
             }
             Get1.Text = temp;
             con.Close();

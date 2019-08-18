@@ -31,8 +31,8 @@
     <div class="flex-box" style="font-family: 'Merienda', cursive;justify-content: space-around;color: black;background:linear-gradient(150deg,rgba(0, 230, 64, 1),rgb(30,144,255),rgb(72,61,139));">
    
     <form id="form1" runat="server">
-        <div style="margin:60px;">
-
+        <div style="margin:60px;padding:60px;">
+            <b>
             NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br /><br /><br />
             CONTACT:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
@@ -42,8 +42,13 @@
             BOOK NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
             <br /><br /><br />
             DESCRIPTION:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-            <br /><br /><br />
-            <asp:Button ID="Button1" runat="server" Text="SUBMIT" OnClick="Button1_Click" />
+            <br /><br /></b>
+            <asp:FileUpload ID="FileUpload1" runat="server"  style="margin:10px;"/>
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" Text="SUBMIT" OnClick="Button1_Click" style="margin:10px;"/>
+            <br />
+            <asp:Label ID="L1" runat="server" style="margin:10px;"></asp:Label>
+
 
         </div>
     </form>
