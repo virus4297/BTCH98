@@ -31,7 +31,7 @@
   /* Add a black background color to the top navigation */
   #topnav {
     border-radius: 10px;
-    margin: 60px;
+    margin: 5%;
     margin-left: : 0px;
     margin-top: 0px;
     font-family: 'Nova Script', cursive;
@@ -46,10 +46,10 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 14px;
-    margin: 10px;
+    padding: 1.2vw 1.2vw;
+    margin: 1vw;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2vw;
   }
 
   /* Change the color of links on hover */
@@ -108,9 +108,10 @@
   .flex-box {
     display: flex;
     flex-flow: row wrap;
-    height: auto; width: 90%;
-    margin:10px;
-    margin-top:30px;
+    height: auto; width: 100%;
+    margin:0px;
+    padding: 5%;
+    margin-top:3px;
     border: 1px solid white;
     border-radius: 3px;
     /*background-color: #ffffff;*/
