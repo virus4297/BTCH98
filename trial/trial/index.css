@@ -55,7 +55,7 @@
     margin: 5%;
     margin-left: : 0px;
     margin-top: 0px;
-    font-family: 'Nova Script', cursive;
+    font-family: Lato;
     float: right;
     background-color: #000000;
     overflow: hidden;
@@ -137,7 +137,7 @@
     border-radius: 3px;
     /*background-color: #ffffff;*/
      /*background:linear-gradient(-45deg, rgba(255, 0 , 0,0.5),rgba(255, 127, 0,0.5),rgba(255, 255, 0,0.5),rgba(0, 255, 0,0.5),rgba(0, 0, 255,0.5),rgba(75, 0, 130,0.5),rgba(148, 0, 211,0.5));*/
-    background:linear-gradient(45deg, rgb(244, 208, 63),rgb(255, 255, 0), rgb(0, 230, 64),rgb(0, 177, 106),rgb(0, 230, 64));
+    /*background:linear-gradient(45deg, rgb(244, 208, 63),rgb(255, 255, 0), rgb(0, 230, 64),rgb(0, 177, 106),rgb(0, 230, 64));*/
     z-index: auto;
     
     opacity: 0.8;
@@ -153,7 +153,7 @@
   .botnav{
     background-color: #101010 ;
     padding: 60px;
-    font-family: 'Nova Script', cursive;
+    font-family: Lato;
     font-size: 35px;
     color: white;
   }
