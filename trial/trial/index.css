@@ -37,6 +37,7 @@
     font-size: 2.5vw;
     font-family: 'Lobster', cursive;
     color: black;
+    opacity: 1;
   }
 
   .header {
@@ -44,6 +45,7 @@
    /* background-color: #000000;*/
     padding: 30px;
     padding-bottom: 0px;
+    padding-top: 11px;
     text-align: center;
   }
 
@@ -52,8 +54,8 @@
   /* Add a black background color to the top navigation */
   #topnav {
     border-radius: 10px;
-    margin: 5%;
-    margin-left: : 0px;
+    margin: 0;
+    margin-left: 0px;
     margin-top: 0px;
     font-family: Lato;
     float: right;
@@ -70,7 +72,7 @@
     padding: 1.2vw 1.2vw;
     margin: 1vw;
     text-decoration: none;
-    font-size: 25px;
+    font-size: calc(0.75em + 1vmin);
   }
 
   /* Change the color of links on hover */
@@ -117,7 +119,6 @@
   #ifrm{
 
   }
-
 
   #mainbod{
     margin-top: 100px;
